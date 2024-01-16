@@ -11,11 +11,11 @@ The high-scores will be displayed in a table.
 
 ## **Site Link**
 
-Visit my Quiz page here: 
+Visit my Quiz page here:  https://brooksy236.github.io/Code-Quiz/
 
 ## **Screenshots**
 
-
+![](assets/images/screenshot.JPG)
 
 ## **Installation**
 

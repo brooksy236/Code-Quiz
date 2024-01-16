@@ -16,27 +16,32 @@ function startGame() {
     timerCount = 10;
     startButton.disabled = true;
     document.querySelector(".start").style.display = "none";
+    document.getElementById("questions").classList.remove("hide");
     startTimer();
     askQuestions(); 
+
 }
+
+// let questionTitle = 
 
 function askQuestions() {
-    document.getElementById("questions").classList.remove("hide");
-
+    // for (var index = 0; index < questionList.length; index++) {         
     document.getElementById("question-title").innerText = questionList[0].question;
-    // document.getElementById("choices").innerText = questionList[0].answerChoices;
-    document.getElementById("question1").innerText = questionList[0].answerChoices[0];
-    document.getElementById("question2").innerText = questionList[0].answerChoices[1];
-    document.getElementById("question3").innerText = questionList[0].answerChoices[2];
-    document.getElementById("question4").innerText = questionList[0].answerChoices[3];
-    
-}
+    document.getElementById("answer1").innerText = questionList[0].answerChoices[0];
+    document.getElementById("answer2").innerText = questionList[0].answerChoices[1];
+    document.getElementById("answer3").innerText = questionList[0].answerChoices[2];
+    document.getElementById("answer4").innerText = questionList[0].answerChoices[3];
+    }
+
+
 function clickListener(event){
     console.log(event.target.id)
 }
+
 var allButtons = document.querySelectorAll(".questionButtons")
 allButtons.forEach(button => {
     button.addEventListener('click', clickListener)
+    
 });
 
 function answerButtons() {
