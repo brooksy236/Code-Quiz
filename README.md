@@ -15,7 +15,12 @@ Visit my Quiz page here:  https://brooksy236.github.io/Code-Quiz/
 
 ## **Screenshots**
 
-![](assets/images/screenshot.JPG)
+![](assets/images/First_Question.png)
+![](assets/images/Correct_Question.png)
+![](assets/images/Wrong_Question.png)
+![](assets/images/Win_Screen.png)
+![](assets/images/Highscores.png)
+![](assets/images/Lose_Screen.png)
 
 ## **Installation**
 
