@@ -86,3 +86,8 @@ li:nth-child(odd) {
   top: 10px;
   right: 10px;
 }
+
+.background {
+  background-image: url(../yellowbackground.jpeg);
+  background-size: cover;
+  }
