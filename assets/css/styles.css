@@ -88,6 +88,13 @@ li:nth-child(odd) {
 }
 
 .background {
-  background-image: url(../yellowbackground.jpeg);
+  background-image: url(../images/yellowbackground.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
   }
+
+.scoresBackground {
+  background-image: url(../images/bluebackground.jpeg);
+  background-size: cover;  
+  background-repeat: no-repeat;
+}
